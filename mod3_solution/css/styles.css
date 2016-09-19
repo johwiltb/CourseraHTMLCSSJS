@@ -1,0 +1,45 @@
+
+/******* Nav bar **********/
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+}
+#collapsable-nav a span { /* Collapsed nav menu glyph */
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+/******* END Nav bar **********/
+
+/******* Main Content *********/
+
+#main-content {
+  background-color: #BABABA
+}
+
+/******* END Main Content *********/
+
+/******* Media Controls *********/
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #EDEDED;
+  }
+
+}
+
+/******* END Media Controls *********/
